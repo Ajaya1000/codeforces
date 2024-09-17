@@ -1,0 +1,1 @@
+{"name":"Local: suffix_array","url":"/Users/ajayamati/vscode/competitive-coding/codeforces/practice/suffix_array.cpp","tests":[{"id":1723057049150,"input":"1\ndabbb","output":"1 4 3 2 0 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ajayamati/vscode/competitive-coding/codeforces/practice/suffix_array.cpp","group":"local","local":true}

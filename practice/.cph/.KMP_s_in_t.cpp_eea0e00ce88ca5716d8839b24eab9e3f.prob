@@ -1,0 +1,1 @@
+{"name":"Local: KMP_s_in_t","url":"/Users/ajayamati/vscode/competitive-coding/codeforces/practice/KMP_s_in_t.cpp","tests":[{"id":1720074307977,"input":"1\nab\nabcvcavbabnabfabc","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ajayamati/vscode/competitive-coding/codeforces/practice/KMP_s_in_t.cpp","group":"local","local":true}

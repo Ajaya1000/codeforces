@@ -58,21 +58,6 @@ ull _powMod(ull n, ull m)
 
 void solve()
 {
-    int n;cin>>n;
-    int a[n];
-    for_each(v,a) cin>>v;
-
-    ll pre = 0;
-    rep(i,0,n-1)pre += a[i];
-    ll suf = 0;
-    ll maxx = 0;
-    repi(i,n-1,0) {
-        pre -= a[i];
-        maxx = max(maxx, abs(pre + a[i]) + suf);
-        suf += a[i];
-    }
-
-    cout<<maxx;
 }
 int main()
 {

@@ -56,23 +56,8 @@ ull _powMod(ull n, ull m)
     workplace start from here
 */
 
-bool solve()
+void solve()
 {
-    string s;cin>>s;
-    
-    int n = s.size();
-    if(s[0] != '1') return false;
-
-    rep(i,1,n-2) {
-        int d = s[i]-'0';
-
-        if(d<1) return false;
-    }
-
-    int d = s[n-1]-'0';
-    if(d > 8) return false;
-
-    return true;
 }
 int main()
 {
@@ -80,7 +65,7 @@ int main()
 
     test
     {
-        cout<<(solve()? "YES": "NO");
+        solve();
         cout << endl;
     }
 

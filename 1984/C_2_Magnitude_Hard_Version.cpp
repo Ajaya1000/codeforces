@@ -19,7 +19,7 @@
 #define B 40
 //
 
-#define mod 998244353
+#define mod 1000000007
 
 typedef unsigned long long ull;
 typedef long long ll;
@@ -56,50 +56,13 @@ ull _powMod(ull n, ull m)
     workplace start from here
 */
 
-const int N = 2e5 + 1;
-
-ll p[N];
-void pre() {
-    p[0] = 1;
-    rep(i,1,N-1) p[i] = (p[i-1] * 2ll) % mod;
-}
-
 void solve()
 {
-    int n;cin>>n;
-    int a[n];
-    for_each(v,a) cin>>v;
-
-    ll sum = 0;
-    ll minn = 0;
-    rep(i,0,n-1) sum+=a[i], minn = min(minn, sum);
-
-    if(minn == 0) {
-        cout<<p[n];
-        return;
-    } 
-
-    sum = 0;
-
-    ll cnt = 0;
-
-    ll ans = 0;
-    rep(i,0,n-1) {
-        sum+=a[i];
-        if(sum == minn) {
-            ans = (ans + p[n-i-1+cnt]) % mod;
-        }
-
-        if(sum >= 0) cnt++;
-    }
-
-    cout<<ans;
 }
 int main()
 {
     fastio;
 
-    pre();
     test
     {
         solve();
