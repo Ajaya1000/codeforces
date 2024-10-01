@@ -4,6 +4,7 @@
     "iostream": "cpp",
     "map": "cpp",
     "set": "cpp",
-    "regex": "cpp"
+    "regex": "cpp",
+    "string": "cpp"
   }
 }
