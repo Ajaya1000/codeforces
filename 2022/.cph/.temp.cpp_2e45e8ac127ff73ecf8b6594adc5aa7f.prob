@@ -1,0 +1,1 @@
+{"name":"Local: temp","url":"/Users/ajayamati/vscode/competitive-coding/codeforces/2022/temp.cpp","tests":[{"id":1729966498550,"input":"3\n()())()\n(a)())()\n)(","output":"(())()\n()()()\n(a())()\n(a)()()\n\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/ajayamati/vscode/competitive-coding/codeforces/2022/temp.cpp","group":"local","local":true}

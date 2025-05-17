@@ -5,6 +5,10 @@
     "map": "cpp",
     "set": "cpp",
     "regex": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "array": "cpp",
+    "queue": "cpp",
+    "deque": "cpp",
+    "unordered_map": "cpp"
   }
 }

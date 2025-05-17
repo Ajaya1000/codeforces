@@ -73,7 +73,6 @@ void solve()
     {
         cout<<pq.top()<<" ";pq.pop();
     }
-    
 }
 int main()
 {
